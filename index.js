@@ -8,8 +8,7 @@
 
 
 
-//let hQ = 42;
-//let feet = 264;
+
 const distanceFromHqInBlocks = (blocks) => {
     if (blocks >= 42) {
         return blocks - 42;
@@ -48,7 +47,7 @@ const distanceTravelledInFeet = (start, end) => {
     } else if (ride <= 2000) {
         return (ride - 400) * 0.02;
     } else if (ride >= 2000 && ride <= 2500) {
-        //console.log("third if");
+        //console.log("did i hit third if");
         return 25;
     } else if (ride > 2500) {
         return "cannot travel that far";
